@@ -1,0 +1,13 @@
+bin\Debug\GlobalHookDemo.exe
+bin\Debug\GlobalHookDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GlobalHookDemo.MainForm.resources
+obj\Debug\UniBot.csproj.GenerateResource.Cache
+obj\Debug\GlobalHookDemo.exe
+obj\Debug\GlobalHookDemo.pdb
+bin\Release\GlobalHookDemo.exe
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\GlobalHookDemo.MainForm.resources
+obj\Release\UniBot.csproj.GenerateResource.Cache
+obj\Release\GlobalHookDemo.exe
+bin\Debug\GlobalHookDemo.XML

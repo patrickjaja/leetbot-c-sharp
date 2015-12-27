@@ -1,0 +1,5 @@
+E:\src\Offline\UniBot\bin\Release\GlobalHookDemo.exe
+E:\src\Offline\UniBot\obj\Release\ResolveAssemblyReference.cache
+E:\src\Offline\UniBot\obj\Release\GlobalHookDemo.MainForm.resources
+E:\src\Offline\UniBot\obj\Release\UniBot.csproj.GenerateResource.Cache
+E:\src\Offline\UniBot\obj\Release\GlobalHookDemo.exe

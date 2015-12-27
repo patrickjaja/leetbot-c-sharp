@@ -1,0 +1,8 @@
+G:\prg\UniBot\bin\Debug\GlobalHookDemo.exe
+G:\prg\UniBot\bin\Debug\GlobalHookDemo.pdb
+G:\prg\UniBot\obj\Debug\ResolveAssemblyReference.cache
+G:\prg\UniBot\obj\Debug\GlobalHookDemo.MainForm.resources
+G:\prg\UniBot\obj\Debug\Keylogger07.csproj.GenerateResource.Cache
+G:\prg\UniBot\obj\Debug\GlobalHookDemo.exe
+G:\prg\UniBot\obj\Debug\GlobalHookDemo.pdb
+G:\prg\UniBot\bin\Debug\GlobalHookDemo.XML

@@ -1,0 +1,7 @@
+bin\Debug\GlobalHookDemo.exe
+bin\Debug\GlobalHookDemo.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\GlobalHookDemo.MainForm.resources
+obj\Debug\GlobalHookDemo.csproj.GenerateResource.Cache
+obj\Debug\GlobalHookDemo.exe
+obj\Debug\GlobalHookDemo.pdb

@@ -1,0 +1,9 @@
+E:\src\Offline\UniBot\obj\Debug\ResolveAssemblyReference.cache
+E:\src\Offline\UniBot\obj\Debug\GlobalHookDemo.MainForm.resources
+E:\src\Offline\UniBot\obj\Debug\UniBot.csproj.GenerateResource.Cache
+E:\src\Offline\UniBot\obj\Debug\GlobalHookDemo.exe
+E:\src\Offline\UniBot\obj\Debug\GlobalHookDemo.pdb
+E:\src\Offline\UniBot\bin\Debug\GlobalHookDemo.XML
+E:\src\Offline\UniBot\bin\Debug\GlobalHookDemo.exe
+E:\src\Offline\UniBot\bin\Debug\GlobalHookDemo.pdb
+E:\src\Offline\UniBot\obj\Debug\GlobalHookDemo.Properties.Resources.resources

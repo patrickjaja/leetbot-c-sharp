@@ -1,0 +1,8 @@
+[Config] 
+Deutsch
+1024*768
+AT_Invite
+Large
+
+a
+F9

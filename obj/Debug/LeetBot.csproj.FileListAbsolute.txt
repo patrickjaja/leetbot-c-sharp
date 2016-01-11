@@ -10,7 +10,6 @@ E:\src\Offline\UniBot\obj\Debug\LeetBot.pdb
 D:\leetbot-c-sharp\bin\Debug\LeetBot.xml
 D:\leetbot-c-sharp\bin\Debug\LeetBot.exe
 D:\leetbot-c-sharp\bin\Debug\LeetBot.pdb
-D:\leetbot-c-sharp\obj\Debug\LeetBot.csprojResolveAssemblyReference.cache
 D:\leetbot-c-sharp\obj\Debug\LeetBot.MainForm.resources
 D:\leetbot-c-sharp\obj\Debug\LeetBot.Properties.Resources.resources
 D:\leetbot-c-sharp\obj\Debug\LeetBot.csproj.GenerateResource.Cache

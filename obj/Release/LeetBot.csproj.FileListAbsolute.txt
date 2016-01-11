@@ -1,0 +1,9 @@
+D:\leetbot-c-sharp\bin\Release\LeetBot.exe.manifest
+D:\leetbot-c-sharp\bin\Release\LeetBot.application
+D:\leetbot-c-sharp\bin\Release\LeetBot.exe
+D:\leetbot-c-sharp\obj\Release\LeetBot.MainForm.resources
+D:\leetbot-c-sharp\obj\Release\LeetBot.Properties.Resources.resources
+D:\leetbot-c-sharp\obj\Release\LeetBot.csproj.GenerateResource.Cache
+D:\leetbot-c-sharp\obj\Release\LeetBot.exe.manifest
+D:\leetbot-c-sharp\obj\Release\LeetBot.application
+D:\leetbot-c-sharp\obj\Release\LeetBot.exe

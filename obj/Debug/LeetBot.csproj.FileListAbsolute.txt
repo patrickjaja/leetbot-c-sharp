@@ -7,3 +7,16 @@ E:\src\Offline\UniBot\bin\Debug\LeetBot.exe
 E:\src\Offline\UniBot\bin\Debug\LeetBot.pdb
 E:\src\Offline\UniBot\obj\Debug\LeetBot.exe
 E:\src\Offline\UniBot\obj\Debug\LeetBot.pdb
+D:\leetbot-c-sharp\bin\Debug\LeetBot.xml
+D:\leetbot-c-sharp\bin\Debug\LeetBot.exe
+D:\leetbot-c-sharp\bin\Debug\LeetBot.pdb
+D:\leetbot-c-sharp\obj\Debug\LeetBot.csprojResolveAssemblyReference.cache
+D:\leetbot-c-sharp\obj\Debug\LeetBot.MainForm.resources
+D:\leetbot-c-sharp\obj\Debug\LeetBot.Properties.Resources.resources
+D:\leetbot-c-sharp\obj\Debug\LeetBot.csproj.GenerateResource.Cache
+D:\leetbot-c-sharp\obj\Debug\LeetBot.exe
+D:\leetbot-c-sharp\obj\Debug\LeetBot.pdb
+D:\leetbot-c-sharp\bin\Debug\LeetBot.exe.manifest
+D:\leetbot-c-sharp\bin\Debug\LeetBot.application
+D:\leetbot-c-sharp\obj\Debug\LeetBot.exe.manifest
+D:\leetbot-c-sharp\obj\Debug\LeetBot.application

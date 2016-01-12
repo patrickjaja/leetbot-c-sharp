@@ -306,6 +306,7 @@ namespace LeetBot
 		{
             try
             {
+                label3.Text = Application.ProductVersion + " " + label3.Text;
                 actHook = new UserActivityHook(); // crate an instance with global hooks
                                                   // hang on events
                                                   //actHook.OnMouseActivity+=new MouseEventHandler(MouseMoved);
@@ -571,7 +572,7 @@ namespace LeetBot
 
         private void msgBox(object sender, EventArgs e)
         {
-            MessageBox.Show("Help: ");
+            MessageBox.Show("Version "+ Application.ProductVersion);
             MessageBox.Show("1337 5p34k 157 31n3 1n73rn375pr4ch3 und w1rd v0r 4113m v0n ch4773rn, h4ck3rn, g4m3rn und j3d3m d3r d3nk7 d4durch 37w45 b350nd3r3r5 zu 531n. 1337 5p34k g1b75 nur g35chr13b3n.");
         }
     }

@@ -46,8 +46,6 @@ namespace LeetBot
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -232,7 +230,7 @@ namespace LeetBot
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(97, 13);
             this.label4.TabIndex = 5;
-            this.label4.Text = "F8 = off      F9 = on";
+            this.label4.Text = "F8 = on      F9 = off";
             // 
             // label5
             // 
@@ -243,29 +241,11 @@ namespace LeetBot
             this.label5.TabIndex = 6;
             this.label5.Text = "Don\'t use CAPS";
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(9, 138);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(152, 22);
-            this.textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(12, 112);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(149, 20);
-            this.textBox2.TabIndex = 8;
-            // 
             // MainForm
             // 
             this.AutoScaleBaseSize = new System.Drawing.Size(5, 13);
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(334, 174);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -321,8 +301,6 @@ namespace LeetBot
         private RadioButton radioButton8;
         private RadioButton radioButton7;
         private Label label5;
-        private TextBox textBox1;
-        private TextBox textBox2;
         UserActivityHook actHook;
 		void MainFormLoad(object sender, System.EventArgs e)
 		{
@@ -348,10 +326,10 @@ namespace LeetBot
         string leetMode = string.Empty;
 
         string [] alphabet = {"a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
-        string [] level1   = {"4", "b", "c", "d", "3", "f", "g", "h", "i", "j", "k", "1", "m", "n", "0", "p", "9", "r", "s", "7", "u", "v", "w", "x", "y", "z"};
-        string [] level2   = {"4", "b", "c", "d", "3", "f", "g", "h", "1", "j", "k", "1", "m", "n", "0", "p", "9", "r", "5", "7", "u", "v", "w", "x", "y", "2"};
-        string [] level3   = {"4", "8", "c", "d", "3", "f", "6", "h", "'", "j", "k", "1", "m", "n", "0", "p", "9", "r", "5", "7", "u", "v", "w", "x", "'/", "2"};
-        string [] level4   = {"@", "8", "c", "d", "3", "f", "6", "h", "'", "j", "k", "1", "m", "n", "0", "p", "9", "r", "5", "7", "u", "v", "w", "x", "'/", "2"};
+        string [] level1   = {"a", "b", "c", "d", "3", "f", "g", "h", "i", "j", "k", "1", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+        string [] level2   = {"a", "b", "c", "d", "3", "f", "g", "h", "i", "j", "k", "1", "m", "n", "0", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"};
+        string [] level3   = {"a", "b", "(", "d", "3", "f", "6", "h", "i", "j", "k", "1", "m", "n", "0", "p", "q", "r", "5", "7", "u", "v", "w", "x", "y", "2"};
+        string [] level4   = {"@", "8", "c", "d", "3", "f", "6", "|-|", "'", "j", "k", "1", "m", "n", "0", "p", "9", "r", "5", "7", "u", "v", "w", "x", "'/", "2"};
         string [] level5   = {"@", "|3", "c", "d", "3", "f", "6", "#", "!", "7", "|<", "1", "m", "n", "0", "|>", "9", "|2", "$", "7", "u", "\\/", "w", "x", "'/", "2"};
         string [] level6   = {"@", "|3", "c", "|)", "&", "|=", "6", "#", "!", ",|", "|<", "1", "m", "n", "0", "|>", "9", "|2", "$", "7", "u", "\\/", "w", "x", "'/", "2"};
         string [] level7   = {"@", "|3", "[", "|)", "&", "|=", "6", "#", "!", ",|", "|<", "1", "^^", "^/", "0", "|*", "9", "|2", "5", "7", "(_)", "\\/", "\\/\\/", "><", "'/", "2"};
@@ -388,7 +366,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level1[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey+ "=>" + level1[charPosition][i]);
                                         SendKeys.Send("{" + level1[charPosition][i] + "}");
                                     }
                                 }
@@ -403,7 +380,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level2[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level2[charPosition][i]);
                                         SendKeys.Send("{" + level2[charPosition][i] + "}");
                                     }
                                 }
@@ -418,7 +394,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level3[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level3[charPosition][i]);
                                         SendKeys.Send("{" + level3[charPosition][i] + "}");
                                     }
                                 }
@@ -433,7 +408,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level4[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level4[charPosition][i]);
                                         SendKeys.Send("{" + level4[charPosition][i] + "}");
                                     }
                                 }
@@ -448,7 +422,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level5[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level5[charPosition][i]);
                                         SendKeys.Send("{" + level5[charPosition][i] + "}");
                                     }
                                 }
@@ -463,7 +436,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level6[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level6[charPosition][i]);
                                         SendKeys.Send("{" + level6[charPosition][i] + "}");
                                     }
                                 }
@@ -478,7 +450,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level7[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level7[charPosition][i]);
                                         SendKeys.Send("{" + level7[charPosition][i] + "}");
                                     }
                                 }
@@ -493,7 +464,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level8[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level8[charPosition][i]);
                                         SendKeys.Send("{" + level8[charPosition][i] + "}");
                                     }
                                 }
@@ -508,7 +478,6 @@ namespace LeetBot
                                     e.Handled = true;
                                     for (int i = 0; i < level9[charPosition].Length; i++)
                                     {
-                                        textBox1.AppendText(typedKey + "=>" + level9[charPosition][i]);
                                         SendKeys.Send("{" + level9[charPosition][i] + "}");
                                     }
                                 }
@@ -516,6 +485,7 @@ namespace LeetBot
                             }
                             break;
                         default:
+                            SendKeys.Send(typedKey);
                             break;
                     }
 
@@ -554,12 +524,12 @@ namespace LeetBot
 
                 switch (e.KeyCode)
                 {
-                    case Keys.F8:
+                    case Keys.F9:
                         isOn = false;
                         label1.Text = "Tool is off.";
                         this.Text = "L33t B0T - 0FF";
                         break;
-                    case Keys.F9:
+                    case Keys.F8:
                         isOn = true;
                         label1.Text = "Tool is on.";
                         this.Text = "L33t B0T - 0N";

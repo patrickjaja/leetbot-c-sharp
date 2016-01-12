@@ -19,3 +19,4 @@ D:\leetbot-c-sharp\bin\Debug\LeetBot.exe.manifest
 D:\leetbot-c-sharp\bin\Debug\LeetBot.application
 D:\leetbot-c-sharp\obj\Debug\LeetBot.exe.manifest
 D:\leetbot-c-sharp\obj\Debug\LeetBot.application
+D:\leetbot-c-sharp\obj\Debug\LeetBot.csprojResolveAssemblyReference.cache
